@@ -18,7 +18,9 @@ const appHeader =`<div class="container-fluid">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="contact.html">Contacts</a>
         </li> 
-        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="jobs.html">Recrutements</a>
+        </li> 
       </ul>
      
       <form class="d-flex" role="search">

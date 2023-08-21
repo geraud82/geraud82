@@ -3,20 +3,11 @@ body{
   height: 95%;
 
 }
-@media screen {
-  
-}
-
-@media (max-width: 800px) {
-  .container-fluid{
-    width: unset;
-    margin-bottom:10px;
-  }
-}
 
 .pac-container:after{
   content:none !important;
 }
+
 
 
 .fa:hover {
@@ -36,6 +27,7 @@ color: rgb(12, 31, 248);
 }
 
 
+
 .fa-linkedin {
 background: #ffffff;
 color: rgb(4, 29, 251);
@@ -53,14 +45,8 @@ color: rgb(250, 5, 5);
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   }
-  @media (max-width: 575px) {
-    .logokadnosa {
-      width: 40px;
-      height: 40px;
-    }
+ 
   
-  }
-
 
   ul{
 list-style-type: none;
@@ -111,9 +97,6 @@ li:last-child {
   float: right;
 }
 
-
-
-
 .footer{
   background-color: #767474;
   width: 100%;
@@ -143,6 +126,7 @@ li:last-child {
 .footerlink{
   width: 50%;
 background-color: rgb(255, 255, 255);
+
 height: 60px; 
 width: 800px;
 align-items: center;
@@ -153,9 +137,9 @@ justify-content: center;}
 .services-text{
   padding: 0px 10px;
   margin-top: 0px;
-  width:80% ;
-
+  max-width:80% ;
 }
+
 .services{
   margin-left: 60px;
   margin-right: 60px;
@@ -164,27 +148,20 @@ justify-content: center;}
   max-width: 100%;
 }
 .kidServices{
-  max-width: 500px;
+  max-width: 30%;
 
 }
 .services-image{
   padding-top: 10px;
-  width: 70%;
+  width: 25%;
   padding-left: 0px;
-  display: inline-block;
-  height: 1400px;
-  
+
+  height: 1100px;
 }
 .services-image img{
-  width: 400px;
-  height: 300px;
+  max-width: 230px;;
+  height: 270px;
   margin-bottom: 40px;
-}
-
-
-.services p{
-  font-size: 15px;
-  font-family:roboto;
 }
 
 

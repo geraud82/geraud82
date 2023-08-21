@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("images/bacolo.jpg");
+}
+
+.password-container {
+  background-color: #1c2326;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: aliceblue;
+}
+
+.error-message {
+  color: rgb(239, 22, 22);
+  margin-top: 10px;
+}
+input{
+  height: 30px;
+  border-radius: 10px;
+}
+button{
+  color: aliceblue;
+  background-color: green;
+  font-size: 18px;
+  border-radius: 10px;
+}
