@@ -138,49 +138,57 @@ text-align: justify;
   padding-right: 10px;
   border-radius: 10px;
   }
-  .acceuil-text{
-    text-align: justify;
-    width: 100%;
-    height: 1800px;
-    margin-top: 10px;
-
-  }
-  
-  .acceuil2-text{
-    text-align: justify;
-    width: 100%;
-    height: 3000px;
-    margin-top: 10px;
-    margin-left: -10px;
-  }
-
-  .acceuil-imag {
+  .acceuil-imag img{
     display: none;
+    width: 0px;
     
   }
-  .parti-acceuil-txt{
-    background-color: rgb(255, 255, 255);
+
+  .acceuil-text{
+    text-align:initial;
     width: 100%;
-    height: 2150px;
+    height: 1900px;
+  }
+  .parti-acceuil-txt h4 {
+    font-weight: bold;
+    
+  }
+  
+  .services{
+    margin-left: 20px;
+    margin-right: 10px;
     display: flex;
-    justify-content:space-between ;
-    margin-right: 0px;
-    margin-left: -20px;
+    justify-content:center;
+    max-width: 100%;
+  }
+  
+  .parti-acceuil-txt{
+    width: 100%;
+    height: 2220px;
+    display: flex;
+    justify-content: center;
     font-family: roboto;
-    font-size: 17px;
-    text-align: justify;  
+    font-size: 20px;
+    text-align: initial;
+    padding: 0px;  
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  .parti2-acceuil-txt h4 {
+    font-weight: bold;
+    
   }
   .parti2-acceuil-txt{
-    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 3200px;
+    height: 3300px;
     display: flex;
-    justify-content:space-between ;
-    margin-left: -10px;
+    justify-content: center;
     font-family: roboto;
-    padding-left: -20px;
-    font-size: 17px;
-    text-align: justify; 
+    font-size: 20px;
+    text-align: initial; 
+    padding: 0px;  
+    padding-left: 0px;
+    padding-right: 20px;
   }
   .hero-text{
     position: absolute;
@@ -200,14 +208,17 @@ text-align: justify;
     
    .body{
     width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
    }
 
    .services-text{
-    padding: 0px 0px;
-    margin-top: 0px;
+    margin: 0px;
+    padding-left: 0px;
+  padding-right: 0px;
     max-width:100% ;
     font-size: 20px;
-    text-align: justify;
+    text-align:initial;
     max-height: 5300px
   }
   .services-image{
@@ -236,7 +247,9 @@ width: 100%;
 padding-left: 30px;
 padding-right: 30px;
 margin-top: 20px;
-text-align: justify;
+text-align:initial;
+font-family:roboto;
+font-size: 20px;
 
 }
 
@@ -245,3 +258,34 @@ text-align: justify;
   font-size: 23px;
 }
 }
+@media screen ( 390*844){
+  .parti-acceuil-txt{
+    width: 100%;
+    height: 1750px;
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+    font-size: 20px;
+    text-align: initial;
+    padding: 0px;  
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  .parti2-acceuil-txt h4 {
+    font-weight: bold;
+    
+  }
+  .parti2-acceuil-txt{
+    width: 100%;
+    height: 2700px;
+    display: flex;
+    justify-content: center;
+    font-family: roboto;
+    font-size: 20px;
+    text-align: initial; 
+    padding: 0px;  
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+}
+  
