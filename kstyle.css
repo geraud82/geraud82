@@ -59,8 +59,8 @@ margin: 10px 0px;
 }
 .aricle{
 width: 100%;
-padding-left: 130px;
-padding-right: 90px;
+padding-left: 40px;
+padding-right: 40px;
 margin-top: 20px;
 text-align: justify;
   
@@ -114,6 +114,16 @@ text-align: justify;
     
    
   }
+  
+  .acceuille{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+    height: 2500px;
+  }
   .text {
     font-size: 22px;
     text-align:center;
@@ -128,26 +138,21 @@ text-align: justify;
     
   }
   .green-bar{
-  background-color: rgb(171, 209, 239);
+  background-color: rgb(31, 37, 42);
   max-width: 1500px;
-  height: 80px;
+  height: 90px;
    font-family: roboto;
    text-align: center;
   font-size: 14px;
   font-weight: bold;
   padding-right: 10px;
   border-radius: 10px;
+  
   }
   .acceuil-imag img{
     display: none;
     width: 0px;
     
-  }
-
-  .acceuil-text{
-    text-align:initial;
-    width: 100%;
-    height: 1900px;
   }
   .parti-acceuil-txt h4 {
     font-weight: bold;
@@ -174,22 +179,6 @@ text-align: justify;
     padding-left: 10px;
     padding-right: 20px;
   }
-  .parti2-acceuil-txt h4 {
-    font-weight: bold;
-    
-  }
-  .parti2-acceuil-txt{
-    width: 100%;
-    height: 3300px;
-    display: flex;
-    justify-content: center;
-    font-family: roboto;
-    font-size: 20px;
-    text-align: initial; 
-    padding: 0px;  
-    padding-left: 0px;
-    padding-right: 20px;
-  }
   .hero-text{
     position: absolute;
     font-size:22px;
@@ -210,6 +199,7 @@ text-align: justify;
     width:100%;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 20px;
    }
 
    .services-text{
@@ -258,34 +248,351 @@ font-size: 20px;
   font-size: 23px;
 }
 }
-@media screen ( 390*844){
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+  .text h2{
+    font-size: 22px;
+    text-align:center;
+    text-align: center;
+    
+   
+  }
+
+  .acceuille{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+    height: 1200px;
+  }
+  
+
+
+
+  .text {
+    font-size: 22px;
+    text-align:center;
+    text-align: center;
+    
+   
+  }
+  .text button{
+    font-size: 22px;
+    text-align:center;
+    text-align: center;
+    
+  }
+  .green-bar{
+  background-color: rgb(171, 209, 239);
+  max-width: 1900px;
+  height: 70px;
+   font-family: roboto;
+   text-align: center;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  padding-right: 10px;
+  border-radius: 10px;
+  }
+  .acceuil-imag {
+    max-width: 15%;
+  display: none;
+  }
+ 
+    .acceuil-imag  img {
+      max-width: 200px;
+      height: 100px;
+   
+    }
+  
+  .parti-acceuil-txt h4 {
+    font-weight: bold;
+    
+  }
+  
+  .services{
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+  }
+  
+.acceuil-txt{
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  height: 810px;
+  margin-top: 10px;
+}
+  
   .parti-acceuil-txt{
     width: 100%;
-    height: 1750px;
+    height: 1720px;
     display: flex;
-    justify-content: center;
+    justify-content:start;
     font-family: roboto;
-    font-size: 20px;
+    font-size: 16px;
     text-align: initial;
     padding: 0px;  
     padding-left: 10px;
     padding-right: 20px;
   }
-  .parti2-acceuil-txt h4 {
-    font-weight: bold;
-    
+  .hero-text{
+    position: absolute;
+    font-size:22px;
+    font-weight: 800;
   }
-  .parti2-acceuil-txt{
+  .hero-services{
+    position:relative;
     width: 100%;
-    height: 2700px;
+    height: 155px;
+    padding-top: 0px;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    font-family: roboto;
-    font-size: 20px;
-    text-align: initial; 
-    padding: 0px;  
-    padding-left: 10px;
-    padding-right: 20px;
+    align-items:center;
   }
-}
+    
+   .body{
+    width:100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+   }
+
+   .services-text{
+    margin: 0px;
+    padding-left: 0px;
+  padding-right: 0px;
+    max-width:100% ;
+    font-size: 20px;
+    text-align:initial;
+    max-height: 5300px
+  }
+  .services-image{
+    display: none;
   
+}
+.boss-foote{
+  display: none;
+}
+.imagblog-cc{ 
+  text-align: center;
+  margin: 10px 0px;
+  width: 100%;
+
+}
+.imagblog{
+  height: 300px; 
+  text-align: center;
+   margin-bottom: 10px; 
+   border-radius: 10px;
+   max-width: 100%;
+
+}
+.aricle{
+width: 100%;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 20px;
+text-align:initial;
+font-family:roboto;
+font-size: 20px;
+
+}
+
+.aricle h2{
+  text-align:start;
+  font-size: 23px;
+}
+
+}
+@media  (max-width: 768px) {
+  
+  .acceuille{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+    height: 1900px;
+  }
+
+  .green-bar{
+    background-color: rgb(171, 209, 239);
+    max-width: 1500px;
+    height: 100px;
+     font-family: roboto;
+     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+    border-radius: 10px;
+    }
+
+
+
+}
+
+
+
+/*medium screen */
+@media (max-width: 800px) {
+  .fade{
+  margin-top: 0px;
+  }
+
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+@media  (max-width: 768px) {
+  .green-bar{
+    margin: 0px 5px;
+    font-size: 16px;
+    height: 80px;
+  }
+
+  .logokadnosa{
+    height: 36px;
+    float: center;
+    width: 36px;
+    border: #ffffff;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    }
+   
+  .acceuil-imag{
+    margin: 0px 5px;
+    font-size: 12px;
+    display: none;
+   
+  }
+.acceuil-txt{
+    width: 100%;
+    height: 900px;
+    padding-bottom: 0px;
+
+  }
+
+.services-image  img{
+      max-width:110px ;
+
+    }
+.services-image {
+            max-width: 20%;
+          display: none;
+    
+          }
+
+.services-text{
+            padding-top: 10px;
+            max-width: 100%;
+            margin-left: 0px;
+            font-size: 18px;
+            text-align:justify;
+          
+           
+          }
+
+  .services{
+            padding-top: 10px;
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-right: 20px;
+          
+          }
+          .parti-acceuil-txt{
+            width: 100%;
+            height: 1260px;
+            display: flex;
+            justify-content: center;
+            font-family: roboto;
+            font-size: 20px;
+            text-align: initial;
+            padding: 0px;  
+            padding-left: 10px;
+            padding-right: 20px;
+          }
+          
+          .kidServices{
+            max-width: 100%;
+            padding-top: 10px;
+            display:table-row;
+            flex-direction: column;
+            justify-content:center
+          }
+          .container1{
+            display: block;
+              border: 8px solid #cecee6;
+              border-radius: 10px;
+              margin: 0 auto;
+
+              padding: 0 0 10px 10px;
+              max-width: 200x;
+              background-color: rgb(133, 138, 141);
+              margin-left: 40px;
+              
+          }
+ .adress{
+            padding-top: 10px;
+            padding-left: 50px;
+            width: 100%;
+            color: #ffffff;
+            font-size: 16px;
+            margin-right: 0px;
+            text-align: justify;
+          }
+.adress h3{
+            font-size: 16px;
+          }
+
+.contact-form-container{
+            
+          flex-direction: column;
+          }
+
+ .imagblog-cc img{
+            width: 600px;
+          }
+
+          .aricle h4{
+            font-weight: bold;
+          }
+          .aricle h1{
+            font-weight: bold;
+          }
+
+
+.text {
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%, -50%); 
+            color: white; 
+            text-align: center; 
+          }
+           
+.aricle{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  text-align:initial;
+
+  }
+
+
+}
+
+         
+          
+

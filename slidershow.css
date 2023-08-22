@@ -5,7 +5,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1350px;
+  max-width: 1400px;
   position: relative;
   margin:auto;
   border-radius: 5px;
@@ -96,17 +96,6 @@ img {vertical-align: middle;}
   font-family: roboto;
   font-size: 15px; 
 }
-
-.parti2-acceuil-txt{
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  height: 1350px;
-  display: flex;
-  justify-content:space-between ;
-  padding:  0px 60px;
-  font-family: roboto;
-  font-size: 15px;
-}
 .green-bar-father{
   width: 100%;
  height: 80px;
@@ -141,17 +130,6 @@ img {vertical-align: middle;}
   width: 60%;
   height: 800px;
   padding-top: 0px;
-}
-.acceuil2-imag{
-  background-color: rgb(255, 255, 255);
-  width: 30%;
-  height: 1200px;
-  border-radius: 20px;
-  margin: 10px 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 .hero-services{
   position:relative;
@@ -289,15 +267,17 @@ input[type="submit"] {
   }.green-bar{
   background-color: rgb(171, 209, 239);
   max-width: 1820px;
-  height: 80px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
    font-family: roboto;
    text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 10px;
   margin-left: 60px;
   margin-right: 60px;
-  padding-bottom: 10px;
+
   
   }
   
@@ -318,12 +298,32 @@ input[type="submit"] {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-@media (max-width: 800px) {
+@media  (max-width: 768px) {
   .green-bar{
     margin: 0px 5px;
     font-size: 16px;
-    height: 40px;
+    height: 60px;
   }
+  
+  .acceuille{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .logokadnosa{
+    height: 36px;
+    float: center;
+    width: 36px;
+    border: #ffffff;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    }
+   
   .acceuil-imag{
     margin: 0px 5px;
     font-size: 12px;
@@ -336,23 +336,6 @@ input[type="submit"] {
     padding-bottom: 0px;
 
   }
-.acceuil2-txt{
-    width: 100%;
-    height: 900px;
-    margin: 10px 10px ;
-    
-  }
-.acceuil2-imag{
-    display: none;
-    
-  }
-  .footer{
-    height: 80px;
-  }
-.parti2-acceuil-txt{
-      
-
-    }
 
 .services-image  img{
       max-width:110px ;
@@ -374,13 +357,25 @@ input[type="submit"] {
            
           }
 
-  services{
+  .services{
             padding-top: 10px;
             max-width: 100%;
             display: flex;
             justify-content: space-between;
-            
+            padding-right: 20px;
           
+          }
+          .parti-acceuil-txt{
+            width: 100%;
+            height: 1260px;
+            display: flex;
+            justify-content: center;
+            font-family: roboto;
+            font-size: 20px;
+            text-align: initial;
+            padding: 0px;  
+            padding-left: 10px;
+            padding-right: 20px;
           }
           
           .kidServices{
@@ -422,17 +417,15 @@ input[type="submit"] {
 
  .imagblog-cc img{
             width: 600px;
-
-          
           }
 
-.aricle{
-           font-size: 18px;
-          margin-top: 10px -10px;
-          max-width: 100%;
-          text-align: justify;
-          
+          .aricle h4{
+            font-weight: bold;
           }
+          .aricle h1{
+            font-weight: bold;
+          }
+
 
 .text {
             position: absolute;
@@ -442,6 +435,15 @@ input[type="submit"] {
             color: white; 
             text-align: center; 
           }
+           
+.aricle{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  text-align:initial;
+
+  }
 
 
 }
