@@ -1,6 +1,6 @@
 - 👋 Hi, I am Mawule DJOSSOU
 - 👀 I’m interested in web development and cybersecurity
-- 🌱 I’m currently learning  HTML, CSS ,Javascript and cybersecurity
+- 🌱 i am full stack developper ( node.js )
 - 💞️ I’m looking to collaborate on frontend projet 
 - 📫 I can be reached by mdgroup82@gmail.com
 
